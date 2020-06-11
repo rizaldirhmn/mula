@@ -1,0 +1,53 @@
+$button-background-color: #fff !default
+$button-border-color: hsl(0, 0%, 86%) !default
+$button-border-width: 1px !default
+$button-color: hsl(0, 0%, 21%) !default
+$button-padding-v: calc(0.375em - #{$button-border-width}) !default
+$button-padding-h: 0.85em !default
+$button-font-size: 15px !default
+$button-height: 2.5em !default
+$button-line-height: 1.5px !default
+$button-radius: 2px !default
+
+$button-hover-color: hsl(0, 0%, 21%) !default
+$button-hover-border-color: hsl(0, 0%, 71%) !default
+$button-active-color: hsl(0, 0%, 21%) !default
+$button-active-border-color: hsl(0, 0%, 29%) !default
+
+
+
+.button
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -webkit-appearance: none
+  -moz-user-select: none
+  -moz-appearance: none
+  -ms-user-select: none
+  user-select: none
+
+  color: $button-color
+  background-color: $button-background-color
+  border-radius: $button-radius
+  border-color: $button-border-color
+  border-width: $button-border-width
+  padding: $button-padding-v $button-padding-h
+  font-size: $button-font-size
+  height: $button-height
+  line-height: $button-line-height
+
+  cursor: pointer
+  justify-content: center
+  text-align: center
+  white-space: nowrap
+  position: relative
+  vertical-align: top
+  align-items: center
+
+  &:hover
+    border-color: $button-hover-border-color
+    color: $button-hover-color
+
+  &:active
+    border-color: $button-active-border-color
+    color: $button-active-color
+

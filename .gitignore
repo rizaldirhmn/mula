@@ -1,0 +1,21 @@
+node_modules/
+
+.Trash-*
+.DS_Store
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# ignore CSS compiled
+src/**/*.css

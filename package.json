@@ -1,0 +1,27 @@
+{
+  "name": "mula",
+  "version": "0.0.1",
+  "description": "Mula is the CSS Framework",
+  "author": "agung96tm",
+  "license": "MIT License",
+  "keywords": [],
+  "bin": {
+    "mula": "bin/index.js"
+  },
+  "scripts": {
+    "generate": "",
+    "compile": "gulp compile",
+    "storybook": "start-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@storybook/addon-notes": "^5.3.19",
+    "@storybook/html": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "node-bourbon": "^4.2.8"
+  }
+}
